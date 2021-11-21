@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16 HW</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">Шапка</header>
+		<main class="main">
+			<div class="dog">
+				<div class="dog__container">
+					<div class="dog__content">
+						<form class="dog__forms " action="#">
+							<h2 class="dog__title">Make an appointment</h2>
+							<div class="dog__row">
+								<div class="dog__line">
+									<input class="form__input form-style" autocomplete="off" placeholder="Name" name="name"
+										type="text">
+								</div>
+								<div class="dog__line">
+									<input class="form__input form-style" autocomplete="off" placeholder="Email" name="email"
+										type="email">
+								</div>
+								<div class="dog__line">
+									<input class="form__input form-style" autocomplete="off" placeholder="Phone Number"
+										name="tel" type="tel">
+								</div>
+								<div class="dog__line">
+									<select class="form__select form-style">
+										<option value="1">Select Service</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+										<option value="4">Пункт №4</option>
+									</select>
+								</div>
+								<div class="dog__line">
+									<textarea placeholder="Tell us about your puppers include his/her name"
+										class="form__textarea form-style" name="text"></textarea>
+								</div>
+							</div>
+							<button class="dog__button bottom">Make an Appointment</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="summary">
+				<div class="summary__container">
+					<div class="summary__content">
+						<form action="#" class="summary__forms">
+							<div class="summary__heading">
+								<div class="summary__lebel ">Summary</div>
+								<div class="summary__title">Estimate Shipping and Tax</div>
+								<div class="summary__subtitle">Enter your destination to get a shipping estimate.</div>
+							</div>
+							<div class="summary__column">
+								<div class="summary__row form-summary">
+									<div class="form-summary">
+										<label class="form-summary__label" for="country">Country</label>
+										<select id="country" name="country" class="form-summary__select form-size">
+											<option value="1">Australia</option>
+											<option value="2">Пункт №2</option>
+											<option value="3">Пункт №3</option>
+											<option value="4">Пункт №4</option>
+										</select>
+									</div>
+									<div class="form-summary">
+										<label class="form-summary__label" for="state">State/Province</label>
+										<input id="state" autocomplete="off" type="text" name="state"
+											class="form-summary__input form-size">
+									</div>
+									<div class="form-summary">
+										<label class="form-summary__label" for="zip">Zip/Postal Code</label>
+										<input id="zip" autocomplete="off" type="text" name="zip"
+											class="form-summary__input form-size">
+									</div>
+								</div>
+								<div class="summary__radio ">
+									<div class="summary__point">
+										<label class="form-summary__label form-summary__label_title">Standard Rate</label>
+										<input id="price" type="radio" name="price" class="summary__bottom radio">
+										<label class="form-summary__label form-summary__label_color" for="price">
+											Price may varydepending on the item/destination.Shop Staff will contactyou.$21.00
+										</label>
+									</div>
+									<div class="summary__point">
+										<label class="form-summary__label form-summary__label_title">Pickup from store</label>
+										<input id="store" type="radio" name="price" class="summary__bottom radio">
+										<label class="form-summary__label form-summary__label_color" for="store">
+											1234 Street AdressCityAddress, 1234 $0.00
+										</label>
+									</div>
+								</div>
+								<div class="summary__apply">
+									<div class="summary__title title">Apply Discount Code</div>
+									<div class="form-summary">
+										<label class="form-summary__label" for="code">Enter discount code</label>
+										<input id="code" autocomplete="off" type="text" name="code"
+											placeholder="Enter Discount code" class="form-summary__input form-size">
+									</div>
+								</div>
+							</div>
+							<button class="summary__bigbootom">
+								Apply Discount
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="registered">
+				<div class="registered__container">
+					<div class="registered__content">
+						<form action="#" class="registered__forms">
+							<div class="registered__heding">
+								<div class="registered__title">Registered Customers</div>
+								<div class="registered__subtitle">If you have an account, sign in with your email address.</div>
+							</div>
+							<div class="registered__column">
+								<div class="form-registered">
+									<label class="form-registered__label" for="Email">Email</label>
+									<input id="Email" placeholder="Email" type="email" name="Email"
+										class="form-registered__input size-form">
+								</div>
+								<div class="form-registered">
+									<label class="form-registered__label" for="password">Password</label>
+									<input id="password" autocomplete="off" placeholder="Password" type="password"
+										name="password" class="form-registered__input size-form">
+								</div>
+							</div>
+							<div class="registered__bottoms">
+								<button class="registered__bottom_radius">Sign In</button>
+								<a class="registered__bottom_color" href="#">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">Я низ</footer>
+	</div>
+</body>
+
+</html>
